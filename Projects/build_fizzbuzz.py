@@ -12,8 +12,6 @@ print "FizzBuzz".
 """
 def fizzbuzz(max_num):
     for num in range(1, max_num):
-        if num % 3 != 0 and num % 5 != 0:
-            print(num)
         elif num % 3 == 0 and num % 5 != 0:
             print('Fizz')    
         elif num % 3 != 0 and num % 5 == 0:
